@@ -1,0 +1,21 @@
+body {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.big-box {
+  background-color: blue;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+}
+.item {
+  background-color: red;
+  flex: 1;
+  height: 30px;
+  min-width: 200px;
+}
